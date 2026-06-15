@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    
     <link
       rel="icon"
       type="image/png"
@@ -12,9 +11,8 @@
       href="./assets/images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Recipe page</title>
+    <title> Recipe page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,86 +26,82 @@
       rel="stylesheet"
     />
     <style>
-*{
-  box-sizing:border-box;
-}
-            .attribution {
-              font-size: 0.6875rem;
-              text-align: center;
-            }
-            body{
-               color: #5f5652;
-              font-family:"Outfit", sans-serif;
-              line-height: 1.6;
-      background-color:  hsl(30, 54%, 90%);
-            }
-            .attribution a {
-              color: hsl(228, 45%, 44%);
-            }
-            .center-body{
-              padding: 30px;
-              border-radius: 30px;
-               /* width: 50%;
+      * {
+        box-sizing: border-box;
+      }
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      body {
+        color: #5f5652;
+        font-family: "Outfit", sans-serif;
+        line-height: 1.6;
+        background-color: hsl(30, 54%, 90%);
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .center-body {
+        padding: 30px;
+        border-radius: 30px;
+        /* width: 50%;
         max-width: 1200px; */
-        width:min(90%,700px);
-       margin: auto;
+        width: min(90%, 700px);
+        margin: auto;
 
-       background-color: hsl(0, 0%, 100%)
-
-            }
-            .recipe-image{
-              border-radius:15px;
-              width: 100%;
-              display:block;
-            }
-           .prep-color{
-
-              color:  hsl(332, 51%, 32%);
-            }
-            p{
-              font-size: 16px;
-            }
-           .ingredient-list{
-              line-height: 1.8;
-
-            }
-            li{
-                 margin-bottom: 12px;
-                 padding-left: 14px;
-            }
-            table{
-              width: 100%;
-              border-collapse: collapse;
-            }
-            tr {
-
+        background-color: hsl(0, 0%, 100%);
+      }
+      .recipe-image {
+        border-radius: 15px;
+        width: 100%;
+        display: block;
+      }
+      .prep-color {
+        color: hsl(332, 51%, 32%);
+      }
+      p {
+        font-size: 16px;
+      }
+      .ingredient-list {
+        line-height: 1.8;
+      }
+      li {
+        margin-bottom: 12px;
+        padding-left: 14px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      tr {
         border-bottom: 1px solid #e3deda;
-      }tr:last-child {
+      }
+      tr:last-child {
         border-bottom: none;
       }
 
       td {
-
         padding: 12px 0 12px 32px;
         color: #5f5652;
       }
 
-      h1{
+      h1 {
         color: #121212;
-         font-family: "Young Serif", serif;
+        font-family: "Young Serif", serif;
       }
       td:last-child {
         text-align: left;
         font-weight: 700;
         color: #854632;
       }
-      .sub-font{
-          font-family: "Young Serif", serif;
-          color:  hsl(14, 45%, 36%);
+      .sub-font {
+        font-family: "Young Serif", serif;
+        color: hsl(14, 45%, 36%);
       }
-      .prep-box{
+      .prep-box {
         border-radius: 15px;
-        background-color:  hsl(330, 100%, 98%);
+        background-color: hsl(330, 100%, 98%);
         padding: 20px;
       }
     </style>
@@ -119,21 +113,21 @@
         src="./assets/images/image-omelette.jpeg"
         alt="omelette"
       />
-      <h1 >Simple Omelette Recipe</h1>
+      <h1>Simple Omelette Recipe</h1>
 
       <p>
         An easy and quick dish, perfect for any meal. This classic omelette
         combines beaten eggs cooked to perfection, optionally filled with your
         choice of cheese, vegetables, or meats.
       </p>
-<div class="prep-box">
-      <p class="prep-color"><b>Preparation time</b></p>
-      <ul>
-        <li>Total: Approximately 10 minutes</li>
-        <li>Preparation: 5 minutes</li>
-        <li>Cooking: 5 minutes</li>
-      </ul>
-</div>
+      <div class="prep-box">
+        <p class="prep-color"><b>Preparation time</b></p>
+        <ul>
+          <li>Total: Approximately 10 minutes</li>
+          <li>Preparation: 5 minutes</li>
+          <li>Cooking: 5 minutes</li>
+        </ul>
+      </div>
       <h2 class="sub-font">Ingredients</h2>
       <ul>
         <li>2-3 large eggs</li>
@@ -197,12 +191,6 @@
           <td>22g</td>
         </tr>
       </table>
-
-      <!-- <footer class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </footer> -->
     </div>
   </body>
 </html>
