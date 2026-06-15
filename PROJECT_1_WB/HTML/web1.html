@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>WB</title>
+    
+  </head>
+  <body>
+   
+    <header>
+      <img class="logo" src="../Assets/logo.png" width="50px">
+      <div class="nav_btn ">
+        <button class="btnn btn blaa">Support</button>
+        <button class="btnn btn blaa">Login</button>
+        <button class="btnn btn blaa">Register</button>
+      </div>
+      <input type="checkbox" class="nav-toggle" id="nav-toggle" />
+  
+      <nav>
+        <ul>
+          <li class="order"><a href="#home">Home</a></li>
+            <li class="order"><a href="#services">Services</a></li>
+            <li class="order" ><a href="#about">About</a></li>
+            <li class="order" ><a href="#survey">Survey</a></li>
+            <li class="order"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+    <main>
+      <div class="scale" id="home">
+        <h1 class="p-heading same">The Best Hosting</h1>
+        <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p class="para">Lorem ipsum dolor sit.</p>
+        <button class="bla">Read More</button>
+        <span id="services" style="color: grey">3</span>
+      </div>
+    </main>
+
+    <h1 class="ps-heading" name="services"><span class="border">DORORO</span></h1>
+    <div class="boxes">
+      <div class="box1">
+        <p class="jin">START</p>
+        <p class="post">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sunt
+          magnam iusto adipisci perspiciatis laudantium veritatis consequuntur
+          tempora. Optio non quo, quasi provident corporis ex fuga dicta
+          officia, repellendus eligendi nihil! Maiores repellendus nesciunt eos,
+          obcaecati ipsum odio at! Dolorem velit nostrum autem ad veritati
+        </p>
+      </div>
+      <div class="box1">
+        <p class="jin">START</p>
+        <p class="post">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sunt
+          magnam iusto adipisci perspiciatis laudantium veritatis consequuntur
+          tempora. Optio non quo, quasi provident corporis ex fuga dicta
+          officia, repellendus eligendi nihil! Maiores repellendus nesciunt eos,
+          obcaecati
+        </p>
+      </div>
+      <div class="box1">
+        <p class="jin">START</p>
+        <p class="post">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sunt
+          magnam iusto adipisci perspiciatis laudantium veritatis consequuntur
+          tempora. Optio non quo, quasi provident corporis ex fuga dicta
+          officia, repellendus eligendi nihil! Maiores repellendus nesciunt eos,
+          obcaecati
+        </p>
+      </div>
+    </div>
+
+    <section>
+      <span id="about" style="color: rgb(249, 245, 245)">3</span>
+      <div class="forimg">
+        
+        <h1
+          class="ps-heading gapabout">
+         <span class="border cool"> About Us</span>
+        </h1>
+        <div class="aboutbox">
+          <img
+            class="aboutimg"
+            src="../Assets/about.jpg"
+          />
+          <div class="bull">
+            <p class="aboutp">Innovative Business</p>
+            <h1 class="abouth">Lorem ipsum</h1>
+            <p class="aboutpp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae ut numquam rerum molestias quasi alias exercitationem
+              tenetur iure inven tore quaerat corrupti Lr emgyrgrukui doloiiuuir
+              sit amet consectetur.
+            </p>
+            <button class="btn  bla aboutbtn">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <span style="color: rgb(246, 241, 241)" id="survey">3</span>
+    <h1 class="ps-heading gap"><span class="border">Take a Survey With Us</h1></span>
+
+    <div class="container">
+      <img src="../Assets/surveypose.jpg" />
+      <div class="formmain">
+        <form class="formfont">
+          <label for="name" class="size">Name </label
+          ><input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+          <label for="email" class="size">Email</label
+          ><input
+            type="email"
+            id="email"
+            placeholder="Enter your Email"
+            required
+          />
+          <label for="age" class="size">Age(optional)</label
+          ><input
+            type="number"
+            id="age"
+            max="75"
+            min="15"
+            placeholder="Age"
+            required
+          />
+          <label for="options" class="size"
+            >Which option best describes your current role?</label
+          >
+          <select id="0ptions">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>other</option>
+          </select>
+
+          <p id="choose" class="formp">
+            Would you recommend our services to a friend?
+          </p>
+          <label for="def">
+            <input type="radio" id="def" name="yes" /> Definitely
+          </label>
+          <label for="may">
+            <input type="radio" id="may" name="yes" />
+            Maybe
+          </label>
+          <label for="not">
+            <input type="radio" id="not" name="yes" />
+            Not sure
+          </label>
+
+          <p class="formp">
+            What wouldyou like to see improved?(check all that apply)
+          </p>
+          <label class="checkbox"
+            ><input type="checkbox" /> Front-end Projects</label
+          >
+          <label class="checkbox"
+            ><input type="checkbox" /> Back-end Projects</label
+          >
+          <label class="checkbox"
+            ><input type="checkbox" /> Data visualization</label
+          >
+
+          <p class="formp">Any comments or suggestions?</p>
+
+          <textarea class="edit" placeholder="Enter Your Comment here..." >
+          </textarea>
+
+          <input type="submit" class="formbtn bla btn" value="SUBMIT" />
+        </form>
+      </div>
+    </div>
+    <footer class="cc" id="contact">
+      <div class="mains">
+        <p class="contacth">Contact Form #09</p>
+        <div class="icons">
+          <div class="icon" id="1">
+            <img src="../Assets/gps.png" id="address" class="scs" />
+            <p class="hee">Address:</p>
+            <address>
+              <p>198 west 21<sup>th</sup> Street,</p>
+              <p>suit 721 NewYork</p>
+              <p>10016</p>
+            </address>
+          </div>
+          <div class="icon" id="2">
+            <img src="../Assets/phone.png" id="address" class="scs" />
+            <p class="hee">Phone:</p>
+            <p>+12 456367898</p>
+          </div>
+          <div class="icon" id="3">
+            <img src="../Assets/email.png" id="address" class="scs" />
+            <p class="hee">Email:</p>
+            <p>Info@youremail.com</p>
+          </div>
+        </div>
+        <p class="copyright"><span class="spancc" >
+          Copyright 2013-2023 service.com | operated by Divilab LLC Privacy
+          Policy | Site Terms & Disclosures. Hosted by Kinsta</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

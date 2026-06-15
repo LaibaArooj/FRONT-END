@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(176, 12, 165);
+}
+.scroll_wrapper {
+  height: 100%;
+  position: fixed;
+  max-width:18em;
+  width: 100%;
+  background: linear-gradient(
+    -45deg,
+    rgb(167, 45, 139),
+    rgb(132, 41, 162)
+  );
+  overflow:auto;
+  display: flex;
+  flex-direction: column;
+  margin-right:1em;
+}
+
+.section::-webkit-scrollbar {
+  width: 8px;
+}
+.section::-webkit-scrollbar-track {
+  background-color: hsla(286, 76%, 29%, 0.703);
+  /* border-radius: 2px; */
+}
+.section::-webkit-scrollbar-thumb {
+  background-color: hsl(308, 93%, 49%);
+  border-radius: 2px;
+}
+@supports(scrollbar-color: hsla(286, 11%, 56%, 0.703) hsl(308, 93%, 49%)){
+*.section{
+    scrollbar-color: hsla(286, 76%, 29%, 0.703) hsl(308, 93%, 49%);
+}
+}
+.scrollbar-heading{
+  padding:1em;
+  text-align: center;
+  color: rgba(26, 5, 26, 0.901);
+  text-shadow: 1px 1px 2px rgb(191, 166, 166);
+
+}
+span{
+  border-bottom:10px solid rgb(133, 15, 133);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.side-content{
+  border:1px solid purple;
+  padding-top:1em;
+  padding-bottom:1em;
+  padding-right:1em;
+  padding-left:2em;
+  color: white;
+  /* text-align: center; */
+}
+.side-content:hover{
+  background-color: rgb(186, 24, 181);
+
+}
+.body-heading{
+  /* margin-left:5em; */
+ padding-top:1.6em;
+  font-size: 3rem;
+  color: rgba(26, 5, 26, 0.901);
+  /* padding:1em; */
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(191, 166, 166);
+
+  
+
+}
+.body-secondary-heading{
+  margin-left:1em;
+  color: rgba(67, 4, 64, 0.901);
+  font-size: 2rem;
+  /* color: white; */
+  
+     padding-top: .2em;
+    padding-bottom: .2em; 
+
+}
+li{
+  margin-left:1em;
+  /* line-break: loose;
+     */
+   line-height: 30px;
+}
+.body-paragraphs{
+  /* margin-left:16em; */
+   font-size: 1.2em;
+   color:white;
+  margin:1em;
+
+}
+.body-lines{
+  margin:1em;
+  /* margin-right:1em;
+  margin-left:19em; */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+  color:rgb(148, 18, 141);
+
+}
+.body-wrapper{
+  width:100%;
+  max-width:61.5em;
+  height:100%;
+  /* background-color: aquamarine; */
+  float: right;
+}

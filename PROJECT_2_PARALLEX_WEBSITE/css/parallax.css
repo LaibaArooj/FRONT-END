@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(217, 204, 204);
+  background-color: rgb(29, 26, 26);
+}
+
+.parallex_wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* position: relative; */
+  perspective: 300px;
+}
+
+.first_child::before {
+  content: "";
+  background: url(../assets/jjk_hero.jpg) no-repeat center center/cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* bottom: 0; */
+  opacity: 0.79;
+  transform: translateZ(-300px) scale(2);
+}
+
+.second_child::before {
+  content: "";
+  background: url(../assets/gojo.jpg) no-repeat center center/cover;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+  /* transform:translateZ(-100px) scale(1); */
+/* background-attachment: fixed; */
+  /* left:0; */
+}
+.first_child {
+  max-width: 100%;
+  height: 100vh;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.second_child {
+  max-width: 100%;
+  height: 100vh;
+  /* transform-style: preserve-3d; */
+  position: relative;
+}
+
+.third_child::before {
+  content: "";
+  background: url(../assets/yuji.jpg) no-repeat center center/cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  /* left: 0; */
+  z-index: 1;
+  /* bottom: 0; */
+  transform: translateZ(-300px) scale(2);
+  /* transform:translateZ(-100px) scale(2);  */
+}
+
+.fourth_child::before {
+  content: "";
+  background: url(../assets/megumi_sukuna.jpg) no-repeat center center/cover;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+  /* transform:translateZ(-200px) scale(2); */
+  /* background-attachment: fixed; */
+
+  /* left:0; */
+}
+.third_child {
+  max-width: 100%;
+  height: 100vh;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.fourth_child {
+  max-width: 100%;
+  height: 100vh;
+  /* transform-style: preserve-3d; */
+  position: relative;
+}
+
+.fifth_child::before {
+  content: "";
+  background: url(../assets/yuta.jpg) no-repeat center center/cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  /* left: 0; */
+  z-index: 1;
+  /* bottom: 0; */
+  transform: translateZ(-300px) scale(2);
+  /* transform:translateZ(-100px) scale(2);  */
+}
+
+.sixth_child::before {
+  content: "";
+  background: url(../assets/jjktrio.png) no-repeat center center/cover;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+  /* transform:translateZ(-200px) scale(2); */
+  /* background-attachment: fixed; */
+
+  /* left:0; */
+}
+.fifth_child {
+  max-width: 100%;
+  height: 100vh;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.sixth_child {
+  max-width: 100%;
+  height: 100vh;
+  /* transform-style: preserve-3d; */
+  position: relative;
+}
+
+.seventh_child::before {
+  content: "";
+  background: url(../assets/nobara.jpg) no-repeat center center/cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  /* left: 0; */
+  z-index: 1;
+  /* bottom: 0; */
+  transform: translateZ(-300px) scale(2);
+  /* transform:translateZ(-100px) scale(2);  */
+/* background-attachment: fixed; */
+
+}
+
+.eighth_child::before {
+  content: "";
+  background: url(../assets/gojo_yuji.jpg) no-repeat center center/cover;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+  /* transform:translateZ(-200px) scale(2); */
+  /* background-attachment: fixed; */
+
+  /* left:0; */
+}
+.seventh_child {
+  max-width: 100%;
+  height: 100vh;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.eighth_child {
+  max-width: 100%;
+  height: 100vh;
+  /* transform-style: preserve-3d; */
+  position: relative;
+}
+
+.ninth_child::before {
+  content: "";
+  background: url(../assets/gojos.jpg) no-repeat center center/cover;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+  transform: translateZ(-300px) scale(2);
+
+
+}
+
+.tenth_child::before {
+  content: "";
+  background: url(../assets/jjk_hero2.jpg) no-repeat center center/cover;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+  /* background-attachment: fixed; */
+}
+.ninth_child {
+  max-width: 100%;
+  height: 100vh;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.tenth_child {
+  max-width: 100%;
+  height: 100vh;
+  /* transform-style: preserve-3d; */
+  position: relative;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  padding-top: 2em;
+}
+h1 {
+  font-size: 3rem;
+  margin-left: 3em;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5em;
+}
+ul li {
+  display: flex;
+  margin: 1em;
+  flex-wrap:wrap;
+  font-size: 1.7em;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(217, 212, 212);
+  cursor: pointer;
+}
+ul li a:hover {
+  text-decoration: none;
+  cursor: pointer;
+
+  color: rgb(215, 209, 184);
+}
+
+/*  .dropbtn {
+background-color: #04AA6D; */
+/* color: white; */
+/* padding: 16px; */
+/* font-size: 16px; */
+/* border: none; 
+}*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  /* margin-top: 23px; */
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 9px;
+  text-decoration: none;
+  display: block;
+  text-transform: none;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #87123190;
+  /* border-radius: 10px; */
+}
+
+.dropdown-content :first-child:hover {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.dropdown-content :last-child:hover {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 4s ease-in;
+}
+@media screen and (max-width:915px){
+header h1{
+  float:left;
+  /* margin-top:3em; */
+  margin-left:1em;
+}
+ul li{
+  font-size:1.2em;
+  /* margin-left:0.50em; */
+}
+
+ul{
+  margin-left:1em;
+  /* background-color: black; */
+}
+
+}
+@media screen and (max-width:458px){
+  header h1{
+    float:left;
+    margin-top:3em;
+    margin-left:1em;}
+
+  
+}
+  
+  
