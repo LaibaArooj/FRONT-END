@@ -17,7 +17,7 @@ body {
 
 .first_child::before {
   content: "";
-  background: url(../assets/jjk_hero.jpg) no-repeat center center/cover;
+  background: url(../assets/2.jpg) no-repeat center center/cover;
   background-repeat: no-repeat;
 
   width: 100%;
@@ -33,7 +33,7 @@ body {
 
 .second_child::before {
   content: "";
-  background: url(../assets/gojo.jpg) no-repeat center center/cover;
+  background: url(../assets/1.jpg) no-repeat center center/cover;
   width: 100%;
   position: absolute;
   height: 100%;
@@ -57,7 +57,7 @@ body {
 
 .third_child::before {
   content: "";
-  background: url(../assets/yuji.jpg) no-repeat center center/cover;
+  background: url(../assets/3.jpg) no-repeat center center/cover;
   background-repeat: no-repeat;
 
   width: 100%;
@@ -73,7 +73,7 @@ body {
 
 .fourth_child::before {
   content: "";
-  background: url(../assets/megumi_sukuna.jpg) no-repeat center center/cover;
+  background: url(../assets/4.jpg) no-repeat center center/cover;
   width: 100%;
   position: absolute;
   height: 100%;
@@ -98,7 +98,7 @@ body {
 
 .fifth_child::before {
   content: "";
-  background: url(../assets/yuta.jpg) no-repeat center center/cover;
+  background: url(../assets/5.jpg) no-repeat center center/cover;
   background-repeat: no-repeat;
 
   width: 100%;
@@ -114,7 +114,7 @@ body {
 
 .sixth_child::before {
   content: "";
-  background: url(../assets/jjktrio.png) no-repeat center center/cover;
+  background: url(../assets/6.png) no-repeat center center/cover;
   width: 100%;
   position: absolute;
   height: 100%;
@@ -139,7 +139,7 @@ body {
 
 .seventh_child::before {
   content: "";
-  background: url(../assets/nobara.jpg) no-repeat center center/cover;
+  background: url(../assets/7.jpg) no-repeat center center/cover;
   background-repeat: no-repeat;
 
   width: 100%;
@@ -157,7 +157,7 @@ body {
 
 .eighth_child::before {
   content: "";
-  background: url(../assets/gojo_yuji.jpg) no-repeat center center/cover;
+  background: url(../assets/8.jpg) no-repeat center center/cover;
   width: 100%;
   position: absolute;
   height: 100%;
@@ -182,7 +182,7 @@ body {
 
 .ninth_child::before {
   content: "";
-  background: url(../assets/gojos.jpg) no-repeat center center/cover;
+  background: url(../assets/9.jpg) no-repeat center center/cover;
   width: 100%;
   position: absolute;
   height: 100%;
@@ -194,7 +194,7 @@ body {
 
 .tenth_child::before {
   content: "";
-  background: url(../assets/jjk_hero2.jpg) no-repeat center center/cover;
+  background: url(../10.jpg) no-repeat center center/cover;
   width: 100%;
   position: absolute;
   height: 100%;
