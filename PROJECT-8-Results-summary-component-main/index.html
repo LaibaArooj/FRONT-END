@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .card-container {
+        /* align-items: center; */
+        display: flex;
+        justify-content: center;
+        background-color: hsl(221, 100%, 96%);
+        height: 100vh;
+        align-items: center;
+      }
+      .inner-card {
+        display: flex;
+        align-items: stretch;
+        background-color: rgb(255, 254, 255);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+      }
+      .right-panel {
+        padding-right: 74px;
+        padding-left: 54px;
+        display: flex;
+        /* padding: 46px; */
+        flex-direction: column;
+        align-items: center;
+      }
+      .left-panel {
+        padding: 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        background: linear-gradient(
+          180deg,
+          hsla(252, 100%, 67%, 1) 20%,
+          hsla(241, 81%, 54%, 1) 50%
+        );
+        border-radius: 30px;
+      }
+
+      .left-circle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 201px;
+        background: linear-gradient(
+          90deg,
+          rgba(36, 33, 202, 1) 31%,
+          rgba(78, 33, 202, 1) 50%
+        );
+        margin: 0 auto;
+        /* padding: 13px; */
+        padding-top: 26px;
+        box-sizing: border-box;
+        width: 125px;
+        height: 124px;
+      }
+      .number {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+      .number-two {
+        font-size: 12px;
+        font-size: 0.9rem;
+        font-weight: normal;
+
+        margin-top: -4px;
+      }
+      .box {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: -8px;
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        padding: 13px;
+      }
+      .left-para {
+        text-align: center;
+      }
+      .comment-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 155%;
+      }
+      .reaction-boxes {
+        display: flex;
+      }
+      .right-reaction {
+        background-color: hsla(0, 100%, 67%, 0.1);
+      }
+      .right-memory {
+        background-color: hsla(39, 100%, 56%, 0.1);
+      }
+      .right-verbal {
+        background-color: hsla(166, 100%, 37%, 0.1);
+      }
+      .right-visual {
+        background-color: hsla(234, 85%, 45%, 0.1);
+      }
+      .right-summary {
+        margin-left: -115px;
+        margin-bottom: 9px;
+        margin-top: 30px;
+        font-size: 20px;
+        text-align: left;
+      }
+      .right-button {
+        margin-bottom: 28px;
+        padding: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        border: none;
+        background-color: hsl(241, 81%, 54%);
+        color: white;
+        font-size: 20px;
+        border-radius: 50px;
+      }
+   
+      @media (max-width: 768px) {
+          .card-container {
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 0;
+    align-items: flex-start;}
+        .inner-card {
+          flex-direction: column;
+          width: 90%;
+          border-radius: 30px;
+        }
+
+        .left-panel {
+          width: 100%;
+          border-radius: 30px 30px 0 0;
+        }
+
+        .right-panel {
+          width: 100%;
+          padding: 30px 20px;
+        }
+
+        .right-summary {
+          margin-left: 0 !important;
+          text-align: center;
+        }
+
+        .comment-boxes {
+          width: 100% !important;
+          align-items: stretch;
+        }
+
+        .box {
+          width: 100%;
+          justify-content: space-between;
+        }
+
+        .right-button {
+          width: 100%;
+          font-size: 18px;
+        }
+
+        .left-para {
+          max-width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="inner-card">
+        <div class="left-panel">
+          <p class="left-result">Your Result</p>
+          <p class="left-circle">
+            <span class="number">76</span>
+            <span class="number-two">of 100</span>
+          </p>
+
+          <p class="left-great">Great</p>
+          <p class="left-para">
+            You scored higher than 65% of <br />
+            the people who have taken <br />these tests.
+          </p>
+        </div>
+        <div class="right-panel">
+          <p class="right-summary">Summary</p>
+          <div class="comment-boxes">
+            <div class="right-reaction box">
+              <div class="reaction-boxes">
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+                Reaction
+              </div>
+              <span>80 / 100</span>
+            </div>
+            <div class="right-memory box">
+              <div class="reaction-boxes">
+                <img src="./assets/images/icon-memory.svg" alt="" />
+                Memory
+              </div>
+              <span>92 / 100</span>
+            </div>
+            <div class="right-verbal box">
+              <div class="reaction-boxes">
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+                Verbal
+              </div>
+              <span>61 / 100</span>
+            </div>
+            <div class="right-visual box">
+              <div class="reaction-boxes">
+                <img src="./assets/images/icon-visual.svg" alt="" />
+                Visual
+              </div>
+              <span>72 / 100</span>
+            </div>
+          </div>
+          <button class="right-button">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
